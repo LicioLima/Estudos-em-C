@@ -1,0 +1,31 @@
+Dicas para linguagem C:
+
+VARIÁVEL LOCAL: Quando você declara uma variável local, ela funciona só naquele bloco.
+VARIÁVEL GLOBAL: Já a global, mesmo que seja declarada num determinado bloco, pode ser acessada em qualquer lugar daquele programa.
+
+PRÉ-INCREMENTO: ++X incrementa o valor de X em 1, antes mesmo de fazer a equação toda. (AQUI PRIORIZA A EQUAÇÃO PRIMEIRO).
+PÓS-INCREMENTO: X++ incrementa o valor de X em 1, após completar a equação. (AQUI PRIORIZA O INCREMENTO PRIMEIRO).
+
+
+PRÉ-DECREMENTO: --X decrementa o valor de X em 1, antes mesmo de fazer a equação toda. (AQUI PRIORIZA A EQUAÇÃO PRIMEIRO).
+PÓS-DECREMENTO: X-- decrementa o valor de X em 1, após completar a equação. (AQUI PRIORIZA O DECREMENTO PRIMEIRO).
+
+o STD das bibliotecas do C, significam STANDARD = Padrão. Exemplo: <stdio.h>
+
+OPERADOR TERNÁRIO: O operador ternário é um substituto da estrutura condicional de (IF / ELSE), tornando o código mais enxuto!
+OPERADOR TERNÁRIO: Ele usa o sinal de (?) para se referir ao (IF) e se utiliza do sinal (:) para se referir a (ELSE).
+
+OPERADOR LÓGICO: São utilizados quando é necessário usar duas ou mais condições dentro da mesma instrução IF. O resultado será booleano V ou F.
+OPERADOR LÓGICO: Os operadores são: (&&) AND, (||) OR, NOT (!).
+
+ESTRUTURA CONDICIONAL: O condicional (SWITCH), é diferente do IF, pois ele permite especificar no código várias condições previamente estabelecidas.
+
+ESTRUTURA DE REPETIÇÃO: (FOR / WHILE). No caso do WHILE ele ja começa o laço no teste.
+ESTRUTURA DE REPETIÇÃO: (DO WHILE) A condição só é estabelecida no final.
+
+BREAK: É usado para pausar a estrutura de repetição tanto para o FOR, quanto para o WHILE
+
+BOOLEAN: A variável booleana não faz parte das variáveis primitivas em C. Em C++ da pra usar uma biblioteca específica.
+
+
+

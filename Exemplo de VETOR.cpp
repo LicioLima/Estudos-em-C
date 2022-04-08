@@ -6,6 +6,7 @@ int main(void)
 	{
 		printf("%i\n", vetor[i]);
 	}
-	printf("Tamanho do vetor: );
+	printf("Tamanho do vetor: %i elementos.", sizeof(vetor)/sizeof(int));
+	getchar();
 	return 0;
 }

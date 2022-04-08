@@ -31,7 +31,12 @@ BOOLEAN: A variável booleana não faz parte das variáveis primitivas em C. Em 
 
 DICA 01: Para formatação no (PRINTF) certas comandos irão diferentes aspectos, exemplos abaixo;
 
+NO PRINTF
 A) Indicar variável double (DOUBLE) com 2 casas usa-se %.2f;
 B) Indicar variável inteiro (INT) usa-se %d;
 C) Indicar variável char (CHAR) usa-se %c;
-A) Para pular linhas usa-se \n.
+D) Para pular linhas usa-se \n.
+
+NO SCANF
+A) Indica no tipo da variável inteira que será lida usa-se %: %d
+B) Indica qual variável será lida usa-se & + variável: &num

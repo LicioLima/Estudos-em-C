@@ -1,0 +1,7 @@
+Funções de Alocação Dinâmica: Funções de Alocação de Memória.
+
+- sizeof; tamanho de
+- malloc; alocar espaço na memória
+- calloc; Funciona com dois parâmetros Quantidade de blocos e o tamanho da qtd em bytes
+- relloc; Realocar espaço na memória
+- free; liberar espaço na memória
